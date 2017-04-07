@@ -1,0 +1,102 @@
+
+body{
+    font-family: "Candara" ;
+    font-size: 16px;
+    color: #96ED89;
+    background-color: #00261C;
+}
+
+
+.site-nav{
+    margin: 0 auto;
+    width: 730px;
+}
+.site-nav li {
+    width: 100px;
+    list-style: none;
+    float: left;
+    background-color: #044C29;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.site-nav ul{
+    background-color: #45BF55;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.site-nav a{
+    display: block;
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: #96ED89;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover, a:active{
+    color: #00261C;
+    text-decoration: blink;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.site-footer{
+    text-align: center;
+    display: block;
+}
+
+#main-photo {
+    border: double;
+    display: block;
+    margin: 0 auto;
+}
+.content{
+    padding-top: 10px;
+    clear: both;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+}
+
+#contact{
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    border: double;
+}
+
+.frame{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #044C29;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+    border: 4px solid #45BF55;
+    cursor:pointer;
+}
+
+.preview img {
+    border: 4px solid #00261C;
+    padding: 1px;
+    width: 43%;
+    height: 43%;
+
+}
